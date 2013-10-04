@@ -5,3 +5,27 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+.body {
+	background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.header {
+	font-family:'Boogaloo', sans-serif;
+	font-size: 36px;
+	color: #116189;
+	padding: 10px;
+}
+
+.motto {
+	font-size: 120%;
+	font-style: italic;
+}
+
+nav a {
+	color: #D74710;
+}
+
