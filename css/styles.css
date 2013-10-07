@@ -5,7 +5,7 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
-.body {
+body {
 	background-image: url(../img/texture-light.png);
     background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
@@ -13,19 +13,88 @@
     padding: 10px;
 }
 
-.header {
+nav.navbar ul {
+	background-color: #D74710;
+	border-radius: 5px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link,
+nav a:hover {
+	color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #FF9D45;
+}
+p.motto {
+	font-size: 120%;
+	font-style: italic;
+	color: black;
+}
+
+h1.header {
 	font-family:'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
 	padding: 10px;
 }
 
-.motto {
-	font-size: 120%;
+.icon-left {
+	background-image: url(../img/logo.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    min-height: 52px;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #888;
+}
+
+.footer {
+	font-size: 80%;
 	font-style: italic;
+	border-style:solid;
+	border-top:thin double gray;
+	padding: 10px;
 }
 
-nav a {
-	color: #D74710;
+.paragraphs {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
+.headertwo {
+	font-size: 36px;
+	color: #116189;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 18px;
+	color: #116189;
+	padding: 10px;
+	font-weight: bold;
+}
+}
